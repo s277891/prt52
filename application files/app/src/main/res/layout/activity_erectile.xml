@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/innerbg"
+    tools:context="com.example.ch_e00587.diabetes2.erectile">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_weight=".15"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/borderlayout"
+        tools:context="com.example.ch_e00587.diabetes1.erectile"
+        android:background="@drawable/topbg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/layoutTextView"
+            android:textSize="22sp"
+            android:text="Erectile Damage"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/borderlayout"
+        android:divider="@null"
+        android:id="@android:id/list"></ListView>
+    <!--    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Manage Diabetes"
+            android:background="@drawable/submitbtn_bg"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_diabetes"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true" />-->
+</RelativeLayout>
