@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="5dp"
+    android:layout_marginBottom="40dp"
+    android:background="@drawable/innerbg"
+    tools:context="com.example.ch_e00587.diabetes1.home">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/userpic"
+        tools:context="com.example.ch_e00587.diabetes1.home">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/white"
+            android:scaleType="fitXY"
+            android:id="@+id/imageUser"
+            android:clickable="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Name"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:id="@+id/nametv"
+            android:background="@drawable/grey"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/imageUser"/>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:hint="Your Name"
+            android:background="@drawable/grey"
+            android:inputType="textPersonName"
+            android:id="@+id/editText"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/imageUser"
+            android:layout_below="@+id/nametv"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userProfile"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/userpic">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userProfile1"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_alignParentTop="true">
+
+             <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                 android:layout_marginLeft="10dp"
+                 android:paddingLeft="10dp"
+                 android:background="@drawable/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/textv1"
+                android:text="Sex"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"/>
+            <Spinner
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="15dp"
+                android:id="@+id/spr_country_list"
+                android:background="@drawable/grey"
+                android:layout_centerVertical="true"
+                android:prompt="@string/str_spr_countries"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/textv1"
+                android:layout_toEndOf="@+id/textv1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                </Spinner>
+            </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/userProfile2"
+            android:gravity="center"
+            android:layout_below="@+id/userProfile1">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textv2"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:text="Birth Date"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_toRightOf="@+id/textv2"
+                android:gravity="center_vertical"
+                android:background="@drawable/grey"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/textv2"
+                android:id="@+id/editText2"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:id="@+id/userProfile3"
+            android:layout_below="@+id/userProfile2">
+
+             <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                 android:layout_marginLeft="10dp"
+                 android:paddingLeft="10dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/white"
+                android:id="@+id/textv3"
+                android:text="Blood Pressure"
+                 android:gravity="center_vertical"
+                 android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_toRightOf="@+id/textv3"
+                android:layout_toEndOf="@+id/textv3"
+                android:inputType="number"
+                android:layout_centerVertical="true"
+                android:maxLength="4"
+                android:id="@+id/editText3"
+                android:background="@drawable/grey"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userProfile4"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_below="@+id/userProfile3">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:text="Cholestrol"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/white"
+                android:id="@+id/textv4"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_toRightOf="@+id/textv4"
+                android:gravity="center_vertical"
+                android:maxLength="4"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/textv4"
+                android:inputType="number"
+                android:id="@+id/editText4"
+                android:background="@drawable/grey"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/userProfile5"
+            android:layout_below="@+id/userProfile4">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:text="Hypoglycemia"
+                android:background="@drawable/white"
+                android:id="@+id/textv5"
+                android:gravity="center_vertical"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:layout_toRightOf="@+id/textv5"
+                android:background="@drawable/grey"
+                android:layout_toEndOf="@+id/textv5"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:id="@+id/editText5"
+                android:maxLength="4"
+                android:inputType="number"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userProfile6"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/userProfile5">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Blood Glucose"
+                android:layout_centerVertical="true"
+                android:background="@drawable/white"
+                android:id="@+id/textv6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/editText6"
+                android:layout_centerVertical="true"
+                android:background="@drawable/grey"
+                android:inputType="number"
+                android:gravity="center_vertical"
+                android:maxLength="4"
+                android:layout_toRightOf="@+id/textv6"
+                android:layout_toEndOf="@+id/textv6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userProfile">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/submitbtn_bg"
+        android:text="SUBMIT"
+        android:layout_centerVertical="true"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Diabetes2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home"><b>Home</b></string>
+    <string name="title_activity_profile"><b>Profile</b></string>
+    <string name="title_activity_info"><b>Info</b></string>
+    <string name="info"><![CDATA[<h2><font color="#96d3ea">Type 2 diabetes</font></h2><p>Type 2 diabetes is a chronic condition that occurs <br />when the pancreas does not produce enough insu<br />lin or the insulin does not work effectively to meet the body needs.</p>Type 2 diabetes:<br>• Represents 85 to 90 % of all cases of diabetes.<br>• Is more likely in people with a family history of ty<br/>pe 2 diabetes or from particular ethnic backgroun<br/>ds.<br>• Usually develops in adults over the age of 45 yea<br/>rs but is increasingly occurring in younger age gro<br/>ups.<br>• Can be delayed or prevented in 58 of cases.<br><h2><font color="#96d3ea">Symptoms of Type 2 diabetes</font> </h2><p> Symptoms may include <b>blurred vision, skin infect<br />ions, slow healing, tingling and numbness in the  f<br />eet.</b> Sometimes no symptoms are noticed at all.</p>]]></string>
+    <string name="title_activity_diabetes2_found"><b>Diabetes2Found</b></string>
+    <string name="ManageDiabetes"><![CDATA[<h2>Manage Diabetes Now </h2><br/></br><p>Congratulations – you’ve taken the first step in lea<br/>rning more about managing your diabetes and livi<br/> ng your life.</p><p>Diabetes Advisor is here to help you on your journ<br/>ey. Learning about <b>healthy food choices</b>, the impor<br/> tance of <b>physical activity</b>, the <b>health care team, blo<br/>od glucose monitoring </b>and preventing complicatio<br/>ns can help you to live well with type 2 diabetes.</p>]]></string>
+    <string name="ManageDiabetesNew"><![CDATA[<p>Congratulations – you’ve taken the first step in learning more about managing your diabetes and living your life.Diabetes Advisor is here to help you on your journey. Learning about <b>healthy food choices</b>, the importance of <b>physical activity</b>, the <b>health care team, blood glucose monitoring </b>and preventing complications can help you to live well with type 2 diabetes.</p>]]></string>
+    <string name="EatHealthy"><![CDATA[<p><b>Healthy eating</b> is an important part of managing type 2 diabetes. This means paying close attenti<br/>on to what, when, and how much you eat on a da<br/>ily basis.</p>]]></string>
+    <string name="Physicalactivity"><![CDATA[<h2>Physical activity Page: </h2><p>Physical activity is vital in maintaining a healthy lif<br />estyle. By becoming more active you can improve<br /> your general health, quality of life and diabetes man<br />agement.</p><p>Participating in regular physical activity helps to:<br />•	Improve insulin sensitivity (makes insulin work bet<br />ter and lowers blood glucose levels)<br>•	Improve blood pressure and lowers blood fats, whi<br />ch reduces the risk of heart disease<br>•	Achieve and maintain a healthy body weight.<br>•	Increase bone strength and reduce the risk of ost<br />eoporosis<br>•	Improve quality of life and sense of well being.<br>•	Slow down the ageing process<br><br><b>For the person with diabetes, physical <br> activity helps to </b><br>•	Improve the body’s response to insulin which can<br /> lower blood glucose level<br>•	Lower blood pressure & cholesterol levels<br>•	Reduce the risk of developing diabetes complica<br />tions</p><h4>Activities:</h4><p>• Aerobic activities that get your muscles moving<br /> such as walking, swimming or cycling are recomm<br />ended.<br>• Strength training activities that make you  use your<br> muscles such as squats, lifting weight are use yo recommended.<br>• For daily activity plan contact us on (provide email<br/> id).</p>]]></string>
+    <string name="stories">
+<![CDATA[
+        <p>
+            &#8226; My name is Kate and I’m just an ordinary person<br /> leading an ordinary life. What makes me somewhat<br /> different, is that I am living my ordinary life with Ty<br />pe 2 diabetes.<br /><br />
+            &#8226; I’d like to say that makes me unique, but the sad<br /> truth is that every day, more and more people are <br />being diagnosed with this disease.Even worse,the<br />  re are thousands uponn thousands of people who <br /> don’t even know they are already affected.<br /><br />
+            &#8226; OK, so I have diabetes. Now what? When I saw the<br /> doctor, she said I needed to exercise and change <br /> my diet. Losing some weight would be benificial.Sh<br />e told me to get a glucose meter to check my blood<br /> glucose at various times during the day: first thing<br />in the morning, before a meal, two hours after a me<br />al, at bedtime,when the moon is full, on trashday…<br/>What? What did she say?<br /><br />
+            &#8226; Be mindful of what you’re eating and how much of <br />each thing: no more than so many grams of fat, so<br /> much protein and about 30 grams of carbs per meal.<br /><br />
+            &#8226; I left that doctor’s office in a daze. I knew that I h<br />ad to make some changes, but I wasn’t sure where<br /> to begin. I’m intelligent. I can figure this out! I just<br /> had to deal with it.This App helped me a lot learning<br /> about the life style that diabetes type 2 people have<br /> to maintain. To overcome it.<br /><br />
+        </p>
+    ]]>
+    </string>
+    <string name="title_activity_diabetes_sub_menu">diabetes_sub_menu</string>
+    <string name="title_activity_eat_healthy"><b>EatHealthy</b></string>
+    <string name="title_activity_physicalactivity">Physicalactivity</string>
+    <string name="title_activity_eat_healthy_link">EatHealthyLink</string>
+    <string name="title_activity_stories"><b>stories</b></string>
+    <string name="title_activity_return_back_home">ReturnBackHome</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="str_spr_countries">Male\Female</string>
+    <string name="managediabetes2"><b>Manage Diabetes Now</b></string>
+    <string name="home_layout"><b>Home</b></string>
+    <string name="hello123"><marquee>hello there !!!111111111111111111111111111111111111111111111111111111111111111</marquee></string>
+    <string name="title_activity_bloodpressuredetails">bloodpressuredetails</string>
+    <string name="bloodpressuedetails">bloodpressuedetails!</string>
+    <string name="cholestroldetails">cholestroldetails</string>
+    <string name="hypoglycemiadetails">hypoglycemiadetails</string>
+    <string name="glucosedetails">glucosedetails</string>
+    <string name="title_activity_glucosedetails">glucosedetails</string>
+    <string name="title_activity_cholestroldetails">cholestroldetails</string>
+    <string name="title_activity_hypoglycemiadetails">hypoglycemiadetails</string>
+    <string name="bloodpressuretitle"><b>Blood Pressure</b></string>
+    <string name="cholestroltitle"><b>Cholestrol</b></string>
+    <string name="hypoglycemiatitle"><b>hypoglycemia</b></string>
+    <string name="glucosetitle"><b>Glucose</b></string>
+    <string name="stopsmokingtitle"><b>Stop Smoking</b></string>
+    <string name="reducewaisttitle"><b>Reduce Waist</b></string>
+    <string name="increasephysicaltitle"><b>Increase Physical</b></string>
+    <string name="betterfoodchoicetitle"><b>Better Food Choice</b></string>
+    <string name="takingasprintitle"><b>Taking Asperin</b></string>
+    <string name="dealingwithdepressiontitle"><b>Dealing With Depression</b></string>
+    <string name="circulationproblemtitle"><b>Circulation Problem</b></string>
+    <string name="blodpressurereduce">
+<![CDATA[<h2><font color="#96d3ea">Lowering blood pressure </font></h2><p>
+            &#8226; 	Losing weight and reducing waist measurement<br/>
+            &#8226; 	Balancing the omega fats in your diet<br/>
+            &#8226;     Normalizing your weight<br/>
+            &#8226; 	Managing your emotional life<br/>
+            &#8226; 	Drugging yourself with exercise<br/>
+            &#8226; 	Appropriate sunshine exposure<br/>
+            &#8226; 	Experimenting with supplements and other alternative tips for improving your blood pressure<br/>
+            &#8226; 	Reduce sodium in your diet<br/>
+            &#8226; 	Limit the amount of alcohol you drink<br/>
+            &#8226; 	Breathe deeply<br/>
+            &#8226; 	Switch to decaf coffee<br/></p>]]>
+    </string>
+    <string name="cholestrolreduce">
+<![CDATA[<h2><font color="#96d3ea">Lowering Cholesterol </font></h2><p>
+            &#8226; 	Being more active<br/>
+            &#8226; 	Taking medication<br/>
+            &#8226;     Eat oily fish (for example, mackerel and salmon)<br/>
+            &#8226; 	Eat nuts (for example, almonds and cashews)<br/>
+            &#8226; 	Eat seeds (for example, sunflower and pumpkin)<br/>
+            &#8226; 	Eat vegetable oils and spreads (for example, sunflower, olive, corn, walnut and rapeseed oils).<br/>
+            &#8226; 	Avoid  food containing saturated fats like : meat pies ,sausages and fatty cuts of meat, butter ,hard cheese, cakes and biscuits.<br/>
+            </p>]]>
+    </string>
+    <string name="glucosereduce">
+<![CDATA[<h2><font color="#96d3ea">Lowering glucose levels </font></h2><p>Blood glucose (day to day)<br/>
+        &#8226; 	Taking medication tablets or insulin<br/>
+        &#8226; 	Physical activity / exercise<br/>
+        &#8226;     Limit foods high in added sugar <br/>
+        &#8226; 	Eating smaller portions of starchy carbohydrate<br/>
+        &#8226; 	Include a low GI food at every meal<br/></p>
+        <h4>Insulin resistance (long term)</h4><p>
+        &#8226; 	Eating less fat and saturated fat<br/>
+        &#8226; 	Losing weight and reducing waist circumference<br/>
+        &#8226; 	Being more active<br/>
+        </p>]]>
+    </string>
+    <string name="hypoglycemeiareduce">
+<![CDATA[<h2><font color="#96d3ea">Lowering blood pressure </font></h2><p>
+            &#8226; 	Losing weight and reducing waist measurement<br/>
+            &#8226; 	Balancing the omega fats in your diet<br/>
+            &#8226;     Normalizing your weight<br/>
+            &#8226; 	Managing your emotional life<br/>
+            &#8226; 	Drugging yourself with exercise<br/>
+            &#8226; 	Appropriate sunshine exposure<br/>
+            &#8226; 	Experimenting with supplements and other alternative tips for improving your blood pressure<br/>
+            &#8226; 	Reduce sodium in your diet<br/>
+            &#8226; 	Limit the amount of alcohol you drink<br/>
+            &#8226; 	Breathe deeply<br/>
+            &#8226; 	Switch to decaf coffee<br/></p>]]>
+    </string>
+    <string name="title_activity_circulationproblem">circulationproblem</string>
+    <string name="title_activity_stopsmokingdetails">stopsmokingdetails</string>
+    <string name="stopsmokingreduce">
+<![CDATA[<h2><font color="#96d3ea">Start you STOP smoking with <b>START :</b> </font></h2><p>
+            S = Set a quit date.<br/>
+            T = Tell family, friends, and co-workers that you plan to quit.<br/>
+            A = Anticipate and plan for the challenges you wll face while quitting.<br/>
+            R = Remove cigarettes and other tobacco products from your home, car, and work.<br/>
+            T = Talk to your doctor about getting help to quit.<br/>
+        </p>]]>
+    </string>
+    <string name="reducewaistreduce">
+<![CDATA[<p>
+            &#8226; 	Eating less fat (all type)<br/>
+            &#8226; 	Having less alcohol<br/>
+            &#8226; 	Eating smaller portions<br/>
+            &#8226; 	Being more physically active<br/>
+        </p>]]>
+    </string>
+    <string name="increasephysicalreduce">
+<![CDATA[<p>
+                &#8226; 	Benefits to being more active<br/>
+                </t>	It helps you to relieve stress and anxiety and improves your mood<br/>
+                </t>	It helps to lower your blood pressure<br/>
+                </t>	It can improve the levels of cholesterol in your blood<br/>
+                </t>	It can burn up kilojoules and help you lose weight <br/>
+                </t>	It helps keep your heart healthy<br/>
+                &#8226; 	Recommended that you<br/>
+                </t>	Accumulate 150 to 300 minutes of moderate intensity physical acitivity or 75 to 150 minutes of vigorous intensity physical activity or an equivalent combination of both activities, each week.<br/>
+                </t>	Do muscle strengthening activities on at least two days each week.<br/>
+    </p>]]>
+    </string>
+    <string name="betterfoodchoicereduce">
+<![CDATA[<p>
+                &#8226;     Eating less fat<br/>
+                &#8226; 	Changing from saturated to unsaturated fats<br/>
+                &#8226;     Aim for a minimum of 2 serves of fruit and 5 serves vegetable daily<br/>
+                &#8226; 	Having less salt<br/>
+                &#8226; 	Alcohol within healthy limits (no more than 2 standard drinks each day)<br/>
+                &#8226; 	Smaller portion sizes leads to weight loss<br/>
+                &#8226; 	Fruits and vegetables<br/>
+    </p>]]>
+    </string>
+    <string name="dealingwithdepressionreduce">
+<![CDATA[<h2><font color="#96d3ea">There are two ways to deal with depression: </font></h2><p>
+            •	Pscyhotherapy or counseling by specialist in mental and emotional disorders.<br/>
+            •	Antidepressent is useful but must be prescribed by primary care provider according to your blood sugar level.<br/>
+        </p>]]>
+    </string>
+    <string name="takingasprinreduce">
+<![CDATA[<p>
+            &#8226; 	Contact your GP for intake of Aspirin<br/>
+            &#8226; 	An evaluation of risks versus benefits should be performed for each patients.<br/>
+            &#8226; 	The use of low dose aspirin is not recommended for those who have a low risk of cardiovascular disease with no additional major risk factors.<br/>
+            &#8226; 	A dose range of 75-162mg of aspirin daily is recommended.<br/>
+        </p>]]>
+    </string>
+    <string name="title_activity_reducewaistdetails">Reducewaistdetails</string>
+    <string name="title_activity_increasephysicaldetails">Increasephysicaldetails</string>
+    <string name="title_activity_betterfoodchoicedetails">Betterfoodchoicedetails</string>
+    <string name="title_activity_strokes">strokes</string>
+    <string name="title_activity_takingaspirindetails">takingaspirindetails</string>
+    <string name="title_activity_dealingwithdepressiondetails">dealingwithdepressiondetails</string>
+    <string name="title_activity_heartattack">heartattack</string>
+    <string name="title_activity_kidney">kidney</string>
+    <string name="title_activity_eyedamage">eyedamage</string>
+    <string name="title_activity_erectile">erectile</string>
+
+</resources>

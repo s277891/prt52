@@ -1,0 +1,13 @@
+<resources>
+    <attr name="GreenTheme" format="reference"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="GreenTheme">@drawable/topbg</item>
+    </style>
+    <style name="your_own_name" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+    <style name="AppTheme.Green">
+        <item name="GreenTheme">@drawable/topbg</item>
+        </style>
+</resources>

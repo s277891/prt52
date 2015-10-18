@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ch_e00587.diabetes2" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/your_own_name" >
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".Diabetes2Found"
+            android:label="@string/title_activity_diabetes2_found" >
+        </activity>
+        <activity
+            android:name=".diabetes_sub_menu"
+            android:label="@string/title_activity_diabetes_sub_menu" >
+        </activity>
+        <activity
+            android:name=".EatHealthy"
+            android:label="@string/title_activity_eat_healthy" >
+        </activity>
+        <activity
+            android:name=".Physicalactivity"
+            android:label="@string/title_activity_physicalactivity" >
+        </activity>
+        <activity
+            android:name=".EatHealthyLink"
+            android:label="@string/title_activity_eat_healthy_link" >
+        </activity>
+        <activity
+            android:name=".stories"
+            android:label="@string/title_activity_stories" >
+        </activity>
+        <activity
+            android:name=".bloodpressuredetails"
+            android:label="@string/title_activity_bloodpressuredetails" >
+        </activity>
+        <activity
+            android:name=".cholestroldetails"
+            android:label="@string/title_activity_cholestroldetails" >
+        </activity>
+        <activity
+            android:name=".hypoglycemiadetails"
+            android:label="@string/title_activity_hypoglycemiadetails" >
+        </activity>
+        <activity
+            android:name=".glucosedetails"
+            android:label="@string/title_activity_glucosedetails" >
+        </activity>
+        <activity
+            android:name=".circulationproblem"
+            android:label="@string/title_activity_circulationproblem" >
+        </activity>
+        <activity
+            android:name=".stopsmokingdetails"
+            android:label="@string/title_activity_stopsmokingdetails" >
+        </activity>
+        <activity
+            android:name=".Reducewaistdetails"
+            android:label="@string/title_activity_reducewaistdetails" >
+        </activity>
+        <activity
+            android:name=".Increasephysicaldetails"
+            android:label="@string/title_activity_increasephysicaldetails" >
+        </activity>
+        <activity
+            android:name=".Betterfoodchoicedetails"
+            android:label="@string/title_activity_betterfoodchoicedetails" >
+        </activity>
+        <activity
+            android:name=".strokes"
+            android:label="@string/title_activity_strokes" >
+        </activity>
+        <activity
+            android:name=".takingaspirindetails"
+            android:label="@string/title_activity_takingaspirindetails" >
+        </activity>
+        <activity
+            android:name=".dealingwithdepressiondetails"
+            android:label="@string/title_activity_dealingwithdepressiondetails" >
+        </activity>
+        <activity
+            android:name=".heartattack"
+            android:label="@string/title_activity_heartattack" >
+        </activity>
+        <activity
+            android:name=".kidney"
+            android:label="@string/title_activity_kidney" >
+        </activity>
+        <activity
+            android:name=".eyedamage"
+            android:label="@string/title_activity_eyedamage" >
+        </activity>
+        <activity
+            android:name=".erectile"
+            android:label="@string/title_activity_erectile" >
+        </activity>
+    </application>
+
+</manifest>

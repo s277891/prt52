@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/innerbg"
+    tools:context="com.example.ch_e00587.diabetes1.Diabetes2Found">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_weight=".15"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/borderlayout"
+        tools:context="com.example.ch_e00587.diabetes1.home"
+        android:background="@drawable/topbg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:id="@+id/layoutTextView"
+            android:textSize="22sp"
+            android:text="@string/managediabetes2"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="15dp"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/innerbg"
+        android:id="@+id/borderlayout1"
+        tools:context="com.example.ch_e00587.diabetes1.home">
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are found Diabetic"
+            android:id="@+id/checkresult"/>-->
+
+        <TextView android:text="@string/hello_world" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/tv_diabetes_riskcause" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_diabetes_riskcause"
+            android:divider="@null"
+            android:id="@android:id/list"></ListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are found Diabetic"
+            android:layout_below="@android:id/list"
+            android:id="@+id/checkresult1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Manage Diabetes"
+            android:background="@drawable/submitbtn_bg"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button_diabetes"
+            android:layout_below="@+id/checkresult1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>
